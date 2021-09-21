@@ -27,7 +27,8 @@ namespace Alcantara.Series
             retorno += "Gênero: "+ this.Genero + Environment.NewLine;
             retorno += "Título: "+ this.Titulo + Environment.NewLine;
             retorno += "Descrição: "+ this.Descricao + Environment.NewLine;
-            retorno += "Ano de Início: "+ this.Descricao + Environment.NewLine;            
+            retorno += "Ano de Início: "+ this.Descricao + Environment.NewLine;
+            retorno += "Excluida: "+ this.Excluido;            
             return retorno;
         }
 
@@ -39,6 +40,11 @@ namespace Alcantara.Series
         public int retornaId()
         {
             return this.Id;
+        }
+
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
 
         public void Excluir()
