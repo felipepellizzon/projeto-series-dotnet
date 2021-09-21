@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Alcantara.Series/1.0.0": {
+        "runtime": {
+          "Alcantara.Series.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alcantara.Series/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

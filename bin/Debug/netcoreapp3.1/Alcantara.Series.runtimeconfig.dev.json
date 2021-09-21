@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\fapel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\fapel\\.nuget\\packages"
+    ]
+  }
+}
